@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+ <groups>
+      <run>
+        <exclude name="fast" />
+      </run>
+    </groups>
+  <test name="Test">
+    <classes>
+     <!-- <class name="testNG.GroupsTest"/>  -->
+      <class name="testNG.PriorityTest1"/>
+      <class name="testNG.PriorityTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
